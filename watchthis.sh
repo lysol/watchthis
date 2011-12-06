@@ -29,4 +29,4 @@ dontwatch()
     incrontab --reload
 }
 
-complete -o nospace -F _scp watchthis
+complete -o nospace -F _rsync watchthis
